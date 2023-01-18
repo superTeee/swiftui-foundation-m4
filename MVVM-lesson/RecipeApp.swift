@@ -11,7 +11,7 @@ import SwiftUI
 struct MVVM_lessonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeTabView()
         }
     }
 }

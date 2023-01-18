@@ -13,12 +13,6 @@ struct ContentView: View {
     
     var body: some View {
         
-//        NavigationView {
-//            List(model.recipes) { r in
-//                Text(r.name)
-//            }
-//        }
-        
                     NavigationView {
                         List(model.recipes) { r in
         
@@ -35,7 +29,7 @@ struct ContentView: View {
         
                                     VStack (alignment: .leading) {
                                         Text(r.name)
-                                            .font(.title3)
+                                            .font(.headline)
                                             .fontWeight(.bold)
                                             .textCase(.uppercase)
                                     }
